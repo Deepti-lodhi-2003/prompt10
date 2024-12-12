@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.hero {
+    background-image: url('https://i.pinimg.com/736x/f0/8d/23/f08d234ce5e73ca553cdad81f3858a48.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:  'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #0d213f;;
+  }
+  
+  .nav-bar {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .logo span {
+    color:  rgb(42, 42, 138);
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  }
+  .nav-links a:hover{
+    color: rgb(42, 42, 138);
+  }
+  .hero-content {
+    margin-top: 100px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .btn{
+    padding: 15px 50px;
+    background-color: rgb(42, 42, 138);
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.btn:hover{
+  background-color: rgb(0,0,41);
+    cursor: pointer;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 30px;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.gallary-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.row{
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+}
+.gallary > h1{
+    background-color: rgb(0,0,41);
+    color: white;
+    font-size: 50px;
+}
+.gallary{
+    display: flex;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+button{
+    padding: 15px 50px;
+    background-color: rgb(0,0,41);
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+button:hover{
+    background-color: rgb(42, 42, 138);
+    cursor: pointer;
+}
+
+@media (max-width:600px){
+  .row{
+    display: flex;
+    flex-direction: column;
+   } 
+   .gallary > h1{
+    font-size: 50px;
+   }
+   .hero{
+    padding: 10px 50px;
+    overflow: hidden;
+   }
+   .nav-bar {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 600px;
+    padding: 10px 30px;
+  }
+  img{
+    width: 60vw;
+}
+}
