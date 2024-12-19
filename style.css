@@ -134,12 +134,15 @@ button:hover{
 }
 
 @media (max-width:600px){
+  .hero-content {
+    margin-top: 80px;
+  }
   .row{
     display: flex;
     flex-direction: column;
    } 
    .gallary > h1{
-    font-size: 50px;
+    font-size: 35px;
    }
    .hero{
     padding: 10px 50px;
@@ -147,12 +150,8 @@ button:hover{
    }
    .nav-bar {
     position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90%;
-    max-width: 600px;
-    padding: 10px 30px;
+    top: 10px;
+    padding: 10px 5px;
   }
   img{
     width: 60vw;
