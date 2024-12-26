@@ -24,7 +24,7 @@
   .nav-bar {
     position: absolute;
     top: 20px;
-    left: 50%;
+    left: 40%;
     transform: translateX(-50%);
     width: 90%;
     max-width: 1200px;
@@ -142,7 +142,7 @@ button:hover{
     flex-direction: column;
    } 
    .gallary > h1{
-    font-size: 35px;
+    font-size: 36px;
    }
    .hero{
     padding: 10px 50px;
